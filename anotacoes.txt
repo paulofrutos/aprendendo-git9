@@ -40,7 +40,3 @@ passo a passo para enviar um commit para o repositório com comandos
 11º Conectar com as credenciais do Github...
 
 12º Pronto, f5 e verá que terá um novo arquivo inserido.
-
-13º git checkout -b <branch_name> - croar um nova branch
-
-14º git checkout <branch_name> - mover entre branchs
