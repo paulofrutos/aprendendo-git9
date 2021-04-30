@@ -1,0 +1,46 @@
+Hierarquia de pastas E21
+
+paulo.frutos
+	dev
+
+Comandos básicos git e bash
+
+Como navegar entre pastas dentro gitbash:
+	**entrar na pasta 
+		cd c:/paulo.frutos/dev
+	**voltar um nível
+		cd ..
+ver conteúdo da pasta
+	*ls
+
+
+-------------------------------------------------------------------------------------------
+passo a passo para enviar um commit para o repositório com comandos
+
+1º Abre o git bash
+
+2º cd c:/paulo.frutos/dev
+
+3º git clone https://github.com/Azurelpa/aprendendo-git.git
+
+4º git status para ver como está a situação
+
+5º cria um arquivo de texto chamado "anotacoes"
+
+6º git status para ver o status do git
+
+7º git add "file name" para adicionar a permissão do git para configurar o arquivo criado. No caso git add anotacoes.txt
+
+8º git status para ver a situação
+
+9º git commit -m 'Nome que queira adicionar ao comentário sobre o arquivo'
+
+10º git push e conecta ao github para dar permissão ao arquivo
+
+11º Conectar com as credenciais do Github...
+
+12º Pronto, f5 e verá que terá um novo arquivo inserido.
+
+13º git checkout -b <branch_name> - croar um nova branch
+
+14º git checkout <branch_name> - mover entre branchs
